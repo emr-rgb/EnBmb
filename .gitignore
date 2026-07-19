@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# xprop / X11 sentinel files accidentally created in cwd
+_MOTIF_WM_HINTS
+_NET_FRAME_EXTENTS
+
+# Editor/OS junk
+*.swp
+*.swo
+.DS_Store
+
+# Game settings backups — local data, not source
+config/game_settings_backup/
+
+logs/*.log
+logs/*.json
+.env
+__pycache__/
+*.pyc
+logs/
